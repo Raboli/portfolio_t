@@ -5,6 +5,8 @@
   top: 0;
   background: #282C33;
   z-index: 100;
+  box-shadow: 1px 3px 10px transparent;
+  overflow: hidden;
 }
 
 .main-header .main-container{
