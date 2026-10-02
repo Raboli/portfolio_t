@@ -1,0 +1,151 @@
+/*********************header***********************/
+
+.main-header{
+  /* position: fixed;
+  width: 100%;
+  background: #282C33;
+  z-index: 100; */
+  position: sticky;
+  top: 0;
+  background: #282C33;
+  z-index: 100;
+}
+
+.main-header .main-container{
+  display: flex;
+  padding: 32px 0 8px 0;
+  justify-content: space-between;
+  max-width: 1052px;
+  margin: 0 auto;
+}
+
+
+.main-header .logo-wrapper{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.main-header .logo-wrapper h3{
+  font-weight: 700;
+}
+
+.nav-container .nav-list{
+  display: flex;
+  gap: 16px;
+}
+
+.nav-container .nav-list li .nav-links{
+  color: #ABB2BF;
+  padding: 0 8px;
+}
+
+.nav-container .nav-list li .nav-links.active{
+  /* دقت کن که بین دات نولینک و دات اکتیو هیچ فاصله ای وجود نداره! */
+  color: #fff;
+}
+
+.nav-container .nav-list li .nav-links:hover{
+  color: #fff;
+}
+
+.nav-container .nav-list .nav-links .sharp{
+  color: #C778DD;
+}
+
+header .platforms{
+  position: fixed;
+  z-index: 1500;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+  left: 30px;
+  background: #282C33;
+}
+
+header .platforms .line{
+  width: 1px;
+  background: #ABB2BF;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+header .platforms .platforms-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  font-size: 1.2rem;
+  color: #ABB2BF;
+  padding: 3px;
+}
+
+header .platforms .platforms-list li a:hover{
+  color: #fff;
+}
+
+/* container asli main */
+
+main .main-container{
+  max-width: 1052px;
+  margin: 0 auto;
+}
+
+/******************************footer********************************/
+
+footer .footer-container{
+  max-width: 1052px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+footer{
+  margin-top: 100px;
+  border-top: 1px solid #ABB2BF;
+}
+
+/* footer content */
+
+.footer-container .logo-wrapper{
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.footer-container .logo-wrapper{
+  
+}
+
+.footer-container .sentence{
+  margin-top: 24px;
+  font-weight: 400;
+}
+
+.footer-container .copyright{
+  margin-top: 50px;
+  text-align: center;
+  color: #ABB2BF;
+}
+
+/* patterns */
+
+main .pattern{
+  position: absolute;
+  left: -20px;
+  top: 1000px;
+  z-index: 99;
+}
+
+main .pattern:nth-of-type(2){
+  top: 1800px;
+}
+
+main .pattern.square{
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ABB2BF;
+  left: 95%;
+  top: 800px;
+}

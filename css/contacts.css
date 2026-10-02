@@ -1,0 +1,52 @@
+/******************************contacts****************************/
+
+.contacts-title{
+  position: relative;
+  font-size: 2rem;
+  margin-top: 50px;
+  width: fit-content;
+}
+
+.contacts-title::before{
+  content: "/";
+  color: #C778DD;
+}
+
+.contacts-title.sharp::before{
+  content: "#";
+  color: #C778DD;
+}
+
+/* contacts container (text and box) */
+
+.contacts-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.contacts-container .contacts-txt{
+  color: #ABB2BF;
+  width: 505px;
+}
+
+.contacts-container .contacts-platform{
+  padding: 1rem;
+  border: 1px solid #ABB2BF;
+}
+
+.contacts-container .contacts-platform .h5{
+  font-weight: 600;
+}
+
+.contacts-container .contacts-platform .contacts-id{
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #ABB2BF;
+}
+
+.contacts-container .contacts-platform .contacts-id:hover{
+  color: #fff;
+}

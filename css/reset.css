@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Fira Code", sans-serif;
+  background: #282C33;
+  color: #fff;
+  overflow-x: hidden;
+  width: 100dvw;
+}
+
+@font-face {
+  font-family: "Fira Code";
+  src: url(../assets/fonts/FiraCode-VariableFont_wght.ttf) format("TrueType");
+}
+
+button,
+input,
+textarea,
+select{
+  font-family: inherit;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul{
+  list-style: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
